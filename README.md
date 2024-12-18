@@ -97,7 +97,7 @@ Below are some demo screenshots of the **Waste Classifier Web App** in action:
 
 **Screenshot 1**: Uploading an image and getting the predicted waste category.
 
-![Uploaded Image and Prediction](screenshots/Screenshot1.png)
+![Uploaded Image and Prediction](/home/kheem/Downloads/Alpha/GarbageSort/screenshots/Screenshot1.png)
 
 ---
 
