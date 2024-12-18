@@ -43,7 +43,7 @@ The Waste Classifier Web App enables users to upload an image of waste, and the 
 Clone the project repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/waste-classifier-streamlit.git
+git clone https://github.com/RohmaButt/garbage-sorting-image-classification.git
 cd waste-classifier-streamlit
 ```
 
