@@ -15,8 +15,6 @@ The app utilizes a **pretrained MobileNetV2 model** fine-tuned on a custom waste
 5. [Model Details](#model-details)
 6. [App Usage](#app-usage)
 7. [Sample Output](#sample-output)
-8. [Dependencies](#dependencies)
-9. [Future Improvements](#future-improvements)
 
 ---
 
@@ -49,7 +47,7 @@ git clone https://github.com/your-username/waste-classifier-streamlit.git
 cd waste-classifier-streamlit
 ```
 
-### \*\*2. Create and Activate a Virtual Environment
+### 2. Create and Activate a Virtual Environment
 
 Create an isolated Python environment using venv:
 
@@ -59,7 +57,7 @@ source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 ```
 
-### \*\*3. Install Dependencies
+### 3. Install Dependencies
 
 Install all required Python libraries using pip:
 
@@ -67,7 +65,7 @@ Install all required Python libraries using pip:
 pip install -r requirements.txt
 ```
 
-### \*\*4. Save the Model
+### 4. Save the Model
 
 Ensure the trained MobileNetV2 model (mobilenetv2_waste_classifier.h5) is present in the project directory.
 
@@ -88,3 +86,25 @@ Network URL: http://<your-ip-address>:8501
 ```
 
 Open the Local URL in your browser to interact with the app.
+
+## Sample Output
+
+Below are some demo screenshots of the **Waste Classifier Web App** in action:
+
+---
+
+### **1. Uploaded Image and Prediction**
+
+**Screenshot 1**: Uploading an image and getting the predicted waste category.
+
+![Uploaded Image and Prediction](screenshots/Screenshot1.png)
+
+---
+
+### **2. Prediction Result**
+
+**Screenshot 2**: The model predicts the class along with the confidence score.
+
+![Prediction Result](screenshots/Screenshot2.png)
+
+---
