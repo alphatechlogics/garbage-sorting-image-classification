@@ -1,8 +1,15 @@
-# Waste Classifier Web App using MobileNetV2
+# ♻️ Garbage Sorting Image Classification 🚮
 
-This project is a deep learning-based **image classification web application** that classifies uploaded waste images into one of four categories: **METAL, ORGANIC, PAPER, and PLASTIC**.
+This project is an **AI-powered image classification web application** that classifies uploaded waste images into one of four categories:
 
-The app utilizes a **pretrained MobileNetV2 model** fine-tuned on a custom waste classification dataset and is served via a **Streamlit** web interface.
+- 🥫 **METAL**
+- 🍃 **ORGANIC**
+- 📄 **PAPER**
+- 🛍️ **PLASTIC**
+
+It leverages a **pretrained MobileNetV2 model** fine-tuned on a custom waste classification dataset and is deployed through an interactive **Streamlit** web interface.
+
+✨ Streamline waste management with intelligent sorting for a cleaner, greener future! 🌱
 
 ---
 
